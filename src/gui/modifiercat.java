@@ -41,7 +41,7 @@ else {
                   
             
                 if (ServiceCategories.getInstance().modifierCatégorie(t.getCatid(), t)) {
-    Dialog.show("Success", "Votre reclamtion a été mise à jour avec succès", new Command("OK"));
+    Dialog.show("Success", "categorie a été mise à jour avec succès", new Command("OK"));
 } else {
     Dialog.show("ERROR", "Server error", new Command("OK"));
 }
